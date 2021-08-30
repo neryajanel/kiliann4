@@ -62,6 +62,11 @@ module.exports = {
       title: "Pame",
       description: "El mejor lugar para Aprender Pame gratis",
     },
+    "/mx/papago/": {  
+      lang: "Pápago", // this will be set as the lang attribute on <html>
+      title: "Pápago",
+      description: "El mejor lugar para Aprender Pápago gratis",
+    },
     "/mx/pima/": {  
       lang: "Pima", // this will be set as the lang attribute on <html>
       title: "Pima",
@@ -255,6 +260,19 @@ module.exports = {
             /* ... */
           ],
           "/mx/pame/guide/": [
+            /* ... */
+          ],
+        },
+      },
+     "/mx/papago/": {
+        label: "Pápago",
+        selectText: "Pápago",
+        nav: require("./nav/papago"),
+        sidebar: {
+          "/mx/papago": [
+            /* ... */
+          ],
+          "/mx/papago/guide/": [
             /* ... */
           ],
         },
